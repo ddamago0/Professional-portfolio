@@ -1,0 +1,11 @@
+{
+  "hero": {
+    "greeting": "Hola, soy",
+    "role": "Desarrollador de Software",
+    "description": "Me apasiona crear proyectos modernos, aprender nuevas tecnologías y desarrollar experiencias web profesionales.",
+
+    "projects": "Ver proyectos",
+
+    "contact": "Contactarme"
+  }
+}
