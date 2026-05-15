@@ -1,8 +1,8 @@
 export default function Navbar() {
   return (
-    <nav className="w-full h-20 flex items-center justify-between px-8 border-b">
+    <nav className="fixed top-0 z-50 w-full h-20 flex items-center justify-between px-8 backdrop-blur-md border-b">
+      {' '}
       <h1 className="text-xl font-bold">Daniel</h1>
-
       <ul className="hidden md:flex gap-8">
         <li className="cursor-pointer">Inicio</li>
 
@@ -12,7 +12,6 @@ export default function Navbar() {
 
         <li className="cursor-pointer">Contacto</li>
       </ul>
-
       <button>ES | EN</button>
     </nav>
   );
